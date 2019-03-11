@@ -21,7 +21,7 @@ public class TestCustomAudience {
 
     //create a custom audience account
 
-    public boolean createCustomeAudience(String name, String description, String fileName) {
+    public String createCustomeAudience(String name, String description, String fileName) {
         Properties prop = this.readConfig("config.properties");
 
         final String AD_ACCOUNT_ID = prop.getProperty("AD.AD_ACCOUNT_ID");
@@ -44,9 +44,9 @@ public class TestCustomAudience {
             this.uploadPhones(customAudienceId, context, fileName);
         } catch (APIException e) {
             e.printStackTrace();
-            return false;
+            return null;
         }
-        return true;
+        return customAudience.getId();
     }
 
     //load config file
@@ -93,9 +93,10 @@ public class TestCustomAudience {
                 count++;
                 if (count == maxSize) {
                     String data = String.join(",", dataList);
-                    new CustomAudience(custom_audience_id, context).createUser()
+                     new CustomAudience(custom_audience_id, context).createUser()
                             .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":[" + data + "]}")
                             .execute();
+
                     dataList.clear();
                     System.out.println("send");
                     count = 0;
@@ -104,9 +105,14 @@ public class TestCustomAudience {
             }
             if (count < maxSize) {
                 String data = String.join(",", dataList);
-                new CustomAudience(custom_audience_id, context).createUser()
+                data="[\"717b029da757c10b4cfec2783acdd2631c8e17913ca3678a7f859eb03d34b2e8\",\"0217E4BA5939E0F93036EB33734D1D722B25AF6362662F1DD49267A2FAFF1B54\"],[\"0217E4BA5939E0F93036EB33734D1D722B25AF6362662F1DD49267A2FAFF1B54\",\"0217E4BA5939E0F93036EB33734D1D722B25AF6362662F1DD49267A2FAFF1B54\"]";
+                System.out.println("data "+data);
+                CustomAudience customAudience = new CustomAudience(custom_audience_id, context).createUser()
                         .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":[" + data + "]}")
                         .execute();
+                System.out.println("\nresponse num_received:" +customAudience.getRawResponseAsJsonObject().get("num_received"));
+                System.out.println("\nresponse num_invalid_entries:" +customAudience.getRawResponseAsJsonObject().get("num_invalid_entries"));
+                System.out.println("\nresponse invalid_entry_samples:" +customAudience.getRawResponseAsJsonObject().get("invalid_entry_samples"));
             }
             System.out.println("line number: " + lineNumber);
             reader.close();
