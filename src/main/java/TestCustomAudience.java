@@ -10,23 +10,23 @@ import java.util.Properties;
 
 public class TestCustomAudience {
 
-    public static void main (String args[]) throws APIException {
+    public static void main(String args[]) throws APIException {
         TestCustomAudience test = new TestCustomAudience();
         String name = "My new Custom Audience";
         String description = "People who purchased on my website";
         String fileName = "/home/lap11105-local/Documents/My repos/" +
-                "FacebookAPI/CustomFacebookAPI/src/main/java/customer.txt";
+                "FacebookAPI/CustomFacebookAPI/src/main/java/DemoSDT.txt";
         test.createCustomeAudience(name, description, fileName);
     }
 
     //create a custom audience account
 
-    public boolean createCustomeAudience(String name, String description, String fileName){
+    public boolean createCustomeAudience(String name, String description, String fileName) {
         Properties prop = this.readConfig("config.properties");
 
-        String AD_ACCOUNT_ID = prop.getProperty("AD.AD_ACCOUNT_ID");
-        String access_token = prop.getProperty("AD.ACCESS_TOKEN");
-        APIContext context = new APIContext(access_token).enableDebug(true);
+        final String AD_ACCOUNT_ID = prop.getProperty("AD.AD_ACCOUNT_ID");
+        final String ACCESS_TOKEN = prop.getProperty("AD.ACCESS_TOKEN");
+        APIContext context = new APIContext(ACCESS_TOKEN).enableDebug(true);
         CustomAudience customAudience;
 
         try {
@@ -42,17 +42,16 @@ public class TestCustomAudience {
 
             //to upload telephone File to created audienceAccount
             this.uploadPhones(customAudienceId, context, fileName);
-
-            return true;
         } catch (APIException e) {
             e.printStackTrace();
+            return false;
         }
-        return false;
+        return true;
     }
 
     //load config file
 
-    public Properties readConfig(String fileName){
+    public Properties readConfig(String fileName) {
         Properties prop = new Properties();
         InputStream input = null;
         try {
@@ -79,7 +78,7 @@ public class TestCustomAudience {
 
     //upload phone lists to custom account
 
-    public boolean uploadPhones(String custom_audience_id, APIContext context, String fileName){
+    public boolean uploadPhones(String custom_audience_id, APIContext context, String fileName) {
         BufferedReader reader;
         ArrayList<String> dataList = new ArrayList<>();
         try {
@@ -89,13 +88,13 @@ public class TestCustomAudience {
             int count = 0;
             int lineNumber = 0;
             while (line != null) {
-                dataList.add("[\""+ DigestUtils.sha256Hex(line)+"\","+"\"0217E4BA5939E0F93036EB33734D1D722B25AF6362662F1DD49267A2FAFF1B54\"]");
+                dataList.add("[\"" + DigestUtils.sha256Hex(line) + "\"," + "\"0217E4BA5939E0F93036EB33734D1D722B25AF6362662F1DD49267A2FAFF1B54\"]");
                 line = reader.readLine();
                 count++;
-                if(count == maxSize){
+                if (count == maxSize) {
                     String data = String.join(",", dataList);
                     new CustomAudience(custom_audience_id, context).createUser()
-                            .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":["+data+"]}")
+                            .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":[" + data + "]}")
                             .execute();
                     dataList.clear();
                     System.out.println("send");
@@ -103,17 +102,18 @@ public class TestCustomAudience {
                 }
                 lineNumber++;
             }
-            if(count<maxSize){
+            if (count < maxSize) {
                 String data = String.join(",", dataList);
                 new CustomAudience(custom_audience_id, context).createUser()
-                        .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":["+data+"]}")
+                        .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":[" + data + "]}")
                         .execute();
             }
-            System.out.println("line number: "+lineNumber);
+            System.out.println("line number: " + lineNumber);
             reader.close();
 
         } catch (IOException | APIException e) {
             e.printStackTrace();
+            return false;
         }
         return true;
     }
