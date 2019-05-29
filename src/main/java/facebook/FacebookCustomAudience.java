@@ -25,8 +25,11 @@ public class FacebookCustomAudience {
 
     public FacebookCustomAudience(){
         Properties prop = this.readConfig("config.properties");
-        AD_ACCOUNT_ID = prop.getProperty("AD.AD_ACCOUNT_ID");
-        ACCESS_TOKEN = prop.getProperty("AD.ACCESS_TOKEN");
+//        AD_ACCOUNT_ID = prop.getProperty("AD.AD_ACCOUNT_ID");
+//        ACCESS_TOKEN = prop.getProperty("AD.ACCESS_TOKEN");
+        AD_ACCOUNT_ID = "1346000572121316";
+//        ACCESS_TOKEN = "EAAcVaCfs0KEBAKVSfHjcRSYCUyut8GtfaIXtqBfb2BFUzZA0Q9mt6RtLBtyJQds4fOtjmlRbPi01sO3byto8n4FYEQPVL3o6R5bpSxIlSZAtoTB4YZCd3QrE4XPbSzyapAl82xGk3DL4NmZCbjwflkmr4H7Xh7200dC2K0Wlz0HLMYz5qMD07K9rZCCPgGoYZD";
+        ACCESS_TOKEN = "EAAjNcKHW6NsBAOU9ciZCOK1CLduT7HkuWef2SbuvmUuuJSqjeZB6E3zRKKEjxeKz84axHBod3RQSQ7eGZAk5ZCAmAfVpxDCGtOOQfXgzW1aT5AVeICcNxWZBfZCyEKZBmLgIHa6JxA9ZAYMdLlyHts0u4oM3r3aB2Y4f46KJAtzotbvVNs0yMnvqr7mS6ZBnT4h4ZD";
         CONTEXT = new APIContext(ACCESS_TOKEN).enableDebug(true);
         TIMEOUT = 10000;
     }
@@ -74,7 +77,60 @@ public class FacebookCustomAudience {
         return customAudience.getId();
     }
 
-    public boolean uploads(List<String> phoneList, String customAudienceId) {
+    public boolean uploadsWithoutCountryCode(List<String> phoneList, String customAudienceId) {
+        Logger logger = Logger.getLogger(TestRunner.class.getName());
+        logger.info("start to upload ");
+        Callable<Boolean> uploadTask = new Callable<Boolean>() {
+
+            public Boolean call(){
+                ArrayList<String> hashedDataList = new ArrayList<>();
+
+                for (String phoneNumber: phoneList) {
+//                    hashedDataList.add("[\"" + DigestUtils.sha256Hex(phoneNumber) + "\"," + "\""+VIETNAM_HASHCODE+"\"]");
+                    hashedDataList.add("\"" + DigestUtils.sha256Hex(phoneNumber) +"\"");
+
+                }
+                String data = String.join(",", hashedDataList);
+                try {
+//                    CustomAudience customAudience = new CustomAudience(customAudienceId, CONTEXT).createUser()
+//                            .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":[" + data + "]}")
+//                            .execute();
+                    CustomAudience customAudience = new CustomAudience(customAudienceId, CONTEXT).createUser()
+                            .setPayload("{\"schema\":\"PHONE_SHA256\",\"data\":[" + data + "]}")
+                            .execute();
+                    logger.info(customAudience.getRawResponseAsJsonObject());
+                    return true;
+                } catch (APIException e) {
+                    logger.error("Error exception: ", e);
+                    return false;
+                }
+            }
+        };
+        RunnableFuture<Boolean> future = new FutureTask(uploadTask);
+        ExecutorService service = Executors.newSingleThreadExecutor();
+        service.execute(future);
+        Boolean result = null;
+        try
+        {
+            result = future.get(TIMEOUT, TimeUnit.MILLISECONDS);    // wait for seconds
+            System.out.println("Result "+result);
+            logger.info("Result " +result);
+            return true;
+        }
+        catch (TimeoutException ex)
+        {
+            // timed out. Try to stop the code if possible.
+            future.cancel(true);
+            logger.info("Result " , ex);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public boolean uploadsWithCountryCode(List<String> phoneList, String customAudienceId) {
         Logger logger = Logger.getLogger(TestRunner.class.getName());
         logger.info("start to upload ");
         Callable<Boolean> uploadTask = new Callable<Boolean>() {
@@ -84,12 +140,17 @@ public class FacebookCustomAudience {
 
                 for (String phoneNumber: phoneList) {
                     hashedDataList.add("[\"" + DigestUtils.sha256Hex(phoneNumber) + "\"," + "\""+VIETNAM_HASHCODE+"\"]");
+//                    hashedDataList.add("\"" + DigestUtils.sha256Hex(phoneNumber) +"\"");
+
                 }
                 String data = String.join(",", hashedDataList);
                 try {
                     CustomAudience customAudience = new CustomAudience(customAudienceId, CONTEXT).createUser()
                             .setPayload("{\"schema\":[\"PHONE\", \"COUNTRY\"],\"data\":[" + data + "]}")
                             .execute();
+//                    CustomAudience customAudience = new CustomAudience(customAudienceId, CONTEXT).createUser()
+//                            .setPayload("{\"schema\":\"PHONE_SHA256\",\"data\":[" + data + "]}")
+//                            .execute();
                     logger.info(customAudience.getRawResponseAsJsonObject());
                     return true;
                 } catch (APIException e) {
