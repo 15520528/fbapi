@@ -24,7 +24,7 @@
         <dependency>
             <groupId>com.facebook.business.sdk</groupId>
             <artifactId>facebook-java-business-sdk</artifactId>
-            <version>[3.0.0,)</version>
+            <version>3.2.8</version>
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
@@ -52,6 +52,17 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

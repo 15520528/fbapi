@@ -1,3 +1,5 @@
+package test;
+
 import com.facebook.ads.sdk.APIContext;
 import com.facebook.ads.sdk.APIException;
 import com.facebook.ads.sdk.AdAccount;

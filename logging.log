@@ -3786,3 +3786,571 @@ java.util.concurrent.TimeoutException
 	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
 	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
 	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-03-22 16:31:21 ERROR TestRunner:70 - Error create Audience
+2019-03-22 16:33:21 INFO  TestRunner:70 - 
+create Audience with Id23843282382560162
+2019-03-22 16:33:56 INFO  TestRunner:70 - 
+create Audience with Id23843282383150162
+2019-03-22 16:33:56 INFO  TestRunner:81 - start to upload 
+2019-03-22 16:33:56 INFO  TestRunner:95 - {"audience_id":"23843282383150162","session_id":"6434845294732781076","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-22 16:33:56 INFO  TestRunner:111 - Result true
+2019-03-22 16:35:06 INFO  TestRunner:70 - 
+create Audience with Id23843282384290162
+2019-03-22 16:35:06 INFO  TestRunner:81 - start to upload 
+2019-03-22 16:35:06 INFO  TestRunner:95 - {"audience_id":"23843282384290162","session_id":"6434845294732781076","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-22 16:35:06 INFO  TestRunner:111 - Result true
+2019-03-25 14:52:21 ERROR TestRunner:72 - Error create Audience
+2019-03-25 14:52:21 INFO  TestRunner:81 - start to upload 
+2019-03-25 14:53:32 ERROR TestRunner:72 - Error create Audience
+2019-03-25 14:53:32 INFO  TestRunner:81 - start to upload 
+2019-03-25 14:56:07 ERROR TestRunner:72 - Error create Audience
+2019-03-25 14:56:07 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:00:03 ERROR TestRunner:72 - Error create Audience
+2019-03-25 15:00:03 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:01:58 INFO  TestRunner:70 - 
+create Audience with Id23843326420850668
+2019-03-25 15:01:58 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:01:59 INFO  TestRunner:95 - {"audience_id":"23843326420850668","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:01:59 INFO  TestRunner:111 - Result true
+2019-03-25 15:07:49 INFO  TestRunner:70 - 
+create Audience with Id23843330088350210
+2019-03-25 15:07:49 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:07:50 INFO  TestRunner:95 - {"audience_id":"23843330088350210","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:07:50 INFO  TestRunner:111 - Result true
+2019-03-25 15:11:24 ERROR TestRunner:72 - Error create Audience
+2019-03-25 15:11:24 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:12:19 ERROR TestRunner:72 - Error create Audience
+2019-03-25 15:12:19 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:16:48 INFO  TestRunner:70 - 
+create Audience with Id23843359409040475
+2019-03-25 15:16:48 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:16:49 INFO  TestRunner:95 - {"audience_id":"23843359409040475","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:16:49 INFO  TestRunner:111 - Result true
+2019-03-25 15:18:15 INFO  TestRunner:70 - 
+create Audience with Id23843359409610475
+2019-03-25 15:18:15 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:18:16 INFO  TestRunner:95 - {"audience_id":"23843359409610475","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:18:16 INFO  TestRunner:111 - Result true
+2019-03-25 15:19:48 INFO  TestRunner:70 - 
+create Audience with Id23843330100760210
+2019-03-25 15:19:48 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:19:48 INFO  TestRunner:95 - {"audience_id":"23843330100760210","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:19:48 INFO  TestRunner:111 - Result true
+2019-03-25 15:25:47 INFO  TestRunner:70 - 
+create Audience with Id23843359415990475
+2019-03-25 15:25:47 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:25:48 INFO  TestRunner:95 - {"audience_id":"23843359415990475","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:25:48 INFO  TestRunner:111 - Result true
+2019-03-25 15:44:09 ERROR TestRunner:72 - Error create Audience
+2019-03-25 15:44:09 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:46:28 INFO  TestRunner:70 - 
+create Audience with Id23843359447040475
+2019-03-25 15:46:28 INFO  TestRunner:81 - start to upload 
+2019-03-25 15:46:29 INFO  TestRunner:95 - {"audience_id":"23843359447040475","session_id":"6435838153732866407","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 15:46:29 INFO  TestRunner:111 - Result true
+2019-03-25 17:48:04 INFO  TestRunner:70 - 
+create Audience with Id23843359639410475
+2019-03-25 17:48:04 INFO  TestRunner:81 - start to upload 
+2019-03-25 17:48:05 INFO  TestRunner:95 - {"audience_id":"23843359639410475","session_id":"6435837054221238172","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-03-25 17:48:05 INFO  TestRunner:111 - Result true
+2019-05-27 15:32:32 ERROR TestRunner:72 - Error create Audience
+2019-05-27 15:32:32 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:34:08 ERROR TestRunner:72 - Error create Audience
+2019-05-27 15:34:08 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:36:35 ERROR TestRunner:72 - Error create Audience
+2019-05-27 15:36:36 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:42:54 INFO  TestRunner:70 - 
+create Audience with Id23843438057890668
+2019-05-27 15:42:54 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:42:55 INFO  TestRunner:95 - {"audience_id":"23843438057890668","session_id":"7740578025055546570","num_received":30,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:42:55 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:18 INFO  TestRunner:70 - 
+create Audience with Id23843438061530668
+2019-05-27 15:46:18 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:20 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:20 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:20 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:22 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:22 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:22 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:24 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:24 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:24 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:25 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:25 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:25 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:27 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:27 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:27 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:29 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:29 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:29 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:30 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:30 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:30 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:32 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:32 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:32 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:34 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:34 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:34 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:41 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:41 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:41 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:43 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:43 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:43 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:44 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:44 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:45 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:46:52 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:46:52 INFO  TestRunner:111 - Result true
+2019-05-27 15:46:52 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:00 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:00 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:00 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:01 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:01 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:01 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:09 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:09 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:09 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:16 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:16 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:16 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:18 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:18 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:18 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:20 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:20 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:20 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:27 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:27 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:27 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:29 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:29 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:29 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:37 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:37 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:37 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:40 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:40 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:40 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:41 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:41 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:41 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:43 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:43 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:43 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:45 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:45 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:45 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:47 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:47 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:47 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:49 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:49 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:49 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:50 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:50 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:50 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:52 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:52 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:52 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:47:59 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:47:59 INFO  TestRunner:111 - Result true
+2019-05-27 15:47:59 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:07 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:07 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:07 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:09 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:09 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:09 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:16 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:16 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:16 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:24 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:24 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:24 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:26 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:26 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:26 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:28 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:28 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:28 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:36 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:36 INFO  TestRunner:111 - Result true
+2019-05-27 15:48:36 INFO  TestRunner:81 - start to upload 
+2019-05-27 15:48:37 INFO  TestRunner:95 - {"audience_id":"23843438061530668","session_id":"7740578025055546570","num_received":9120,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 15:48:37 INFO  TestRunner:111 - Result true
+2019-05-27 16:57:57 INFO  TestRunner:70 - 
+create Audience with Id23843438190890668
+2019-05-27 16:57:57 INFO  TestRunner:81 - start to upload 
+2019-05-27 16:57:58 INFO  TestRunner:95 - {"audience_id":"23843438190890668","session_id":"7740578025055546571","num_received":1007,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-27 16:57:58 INFO  TestRunner:111 - Result true
+2019-05-28 16:04:33 INFO  TestRunner:70 - 
+create Audience with Id23843440129590668
+2019-05-28 16:04:33 INFO  TestRunner:81 - start to upload 
+2019-05-28 16:04:34 INFO  TestRunner:95 - {"audience_id":"23843440129590668","session_id":"7740575826032290209","num_received":1007,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-28 16:04:34 INFO  TestRunner:111 - Result true
+2019-05-28 16:10:28 INFO  TestRunner:70 - 
+create Audience with Id23843440136990668
+2019-05-28 16:10:28 INFO  TestRunner:81 - start to upload 
+2019-05-28 16:10:28 ERROR TestRunner:103 - Error exception: 
+com.facebook.ads.sdk.APIException$FailedRequestException: {"error":{"message":"(#100) Schema is invalid, it should be one of UID,MOBILE_ADVERTISER_ID or is an array of hash types. The valid hash types are EMAIL_SHA256,PHONE_SHA256,EMAIL_MD5,PHONE_MD5","type":"OAuthException","code":100,"fbtrace_id":"AhDYEsBB4VB"}}
+	at com.facebook.ads.sdk.APIRequest.readResponse(APIRequest.java:306)
+	at com.facebook.ads.sdk.APIRequest.access$100(APIRequest.java:53)
+	at com.facebook.ads.sdk.APIRequest$DefaultRequestExecutor.sendPost(APIRequest.java:579)
+	at com.facebook.ads.sdk.APIRequest$DefaultRequestExecutor.execute(APIRequest.java:511)
+	at com.facebook.ads.sdk.APIRequest.executeInternal(APIRequest.java:198)
+	at com.facebook.ads.sdk.CustomAudience$APIRequestCreateUser.execute(CustomAudience.java:3087)
+	at com.facebook.ads.sdk.CustomAudience$APIRequestCreateUser.execute(CustomAudience.java:3082)
+	at facebook.FacebookCustomAudience$1.call(FacebookCustomAudience.java:99)
+	at facebook.FacebookCustomAudience$1.call(FacebookCustomAudience.java:82)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://graph.facebook.com/v3.2/23843440136990668/users
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.facebook.ads.sdk.APIRequest.readResponse(APIRequest.java:288)
+	... 12 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://graph.facebook.com/v3.2/23843440136990668/users
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at com.facebook.ads.sdk.APIRequest.readResponse(APIRequest.java:285)
+	... 12 more
+2019-05-28 16:10:28 INFO  TestRunner:116 - Result false
+2019-05-28 16:11:43 INFO  TestRunner:70 - 
+create Audience with Id23843440140540668
+2019-05-28 16:11:43 INFO  TestRunner:81 - start to upload 
+2019-05-28 16:11:44 INFO  TestRunner:100 - {"audience_id":"23843440140540668","session_id":"7643231201564673623","num_received":1007,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-28 16:11:44 INFO  TestRunner:116 - Result true
+2019-05-28 16:15:36 INFO  TestRunner:70 - 
+create Audience with Id23843440147580668
+2019-05-28 16:16:08 INFO  TestRunner:70 - 
+create Audience with Id23843440148600668
+2019-05-28 16:16:25 INFO  TestRunner:70 - 
+create Audience with Id23843440148840668
+2019-05-28 16:16:25 INFO  TestRunner:81 - start to upload 
+2019-05-28 16:16:26 INFO  TestRunner:100 - {"audience_id":"23843440148840668","session_id":"7643231201564673623","num_received":5,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-28 16:16:26 INFO  TestRunner:116 - Result true
+2019-05-28 16:39:57 INFO  TestRunner:70 - 
+create Audience with Id23843440191850668
+2019-05-28 16:39:57 INFO  TestRunner:81 - start to upload 
+2019-05-28 16:39:57 INFO  TestRunner:100 - {"audience_id":"23843440191850668","session_id":"7643231201564673623","num_received":5,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-28 16:39:58 INFO  TestRunner:116 - Result true
+2019-05-29 10:07:49 INFO  TestRunner:70 - 
+create Audience with Id23843441910800668
+2019-05-29 10:10:03 INFO  TestRunner:70 - 
+create Audience with Id23843441911840668
+2019-05-29 10:10:20 INFO  TestRunner:70 - 
+create Audience with Id23843441912030668
+2019-05-29 10:13:41 INFO  TestRunner:70 - 
+create Audience with Id23843441916940668
+2019-05-29 10:14:03 INFO  TestRunner:70 - 
+create Audience with Id23843441917170668
+2019-05-29 10:15:43 INFO  TestRunner:70 - 
+create Audience with Id23843441919140668
+2019-05-29 10:15:43 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:15:45 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:15:45 INFO  TestRunner:116 - Result true
+2019-05-29 10:15:45 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:15:49 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:15:49 INFO  TestRunner:116 - Result true
+2019-05-29 10:15:49 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:15:53 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:15:53 INFO  TestRunner:116 - Result true
+2019-05-29 10:15:53 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:15:57 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:15:57 INFO  TestRunner:116 - Result true
+2019-05-29 10:15:57 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:16:02 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:16:02 INFO  TestRunner:116 - Result true
+2019-05-29 10:16:02 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:16:06 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:16:06 INFO  TestRunner:116 - Result true
+2019-05-29 10:16:06 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:16:10 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:16:10 INFO  TestRunner:116 - Result true
+2019-05-29 10:16:10 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:16:14 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:16:14 INFO  TestRunner:116 - Result true
+2019-05-29 10:16:14 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:16:15 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:16:15 INFO  TestRunner:116 - Result true
+2019-05-29 10:16:15 INFO  TestRunner:81 - start to upload 
+2019-05-29 10:16:17 INFO  TestRunner:100 - {"audience_id":"23843441919140668","session_id":"7643233400587930107","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:16:17 INFO  TestRunner:116 - Result true
+2019-05-29 10:54:45 INFO  TestRunner:70 - 
+create Audience with Id23843441957660668
+2019-05-29 10:54:45 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:54:53 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:54:53 INFO  TestRunner:169 - Result true
+2019-05-29 10:54:53 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:01 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:01 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:01 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:08 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:08 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:08 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:16 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:16 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:16 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:18 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:18 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:18 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:22 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:22 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:22 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:25 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:25 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:25 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:32 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:32 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:32 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:40 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:40 INFO  TestRunner:169 - Result true
+2019-05-29 10:55:40 INFO  TestRunner:134 - start to upload 
+2019-05-29 10:55:41 INFO  TestRunner:153 - {"audience_id":"23843441957660668","session_id":"7740564830916008101","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 10:55:41 INFO  TestRunner:169 - Result true
+2019-05-29 11:06:52 INFO  TestRunner:71 - 
+create Audience with Id23843441982940668
+2019-05-29 11:06:52 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:06:54 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:06:54 INFO  TestRunner:117 - Result true
+2019-05-29 11:06:54 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:06:56 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:06:56 INFO  TestRunner:117 - Result true
+2019-05-29 11:06:56 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:06:57 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:06:57 INFO  TestRunner:117 - Result true
+2019-05-29 11:06:57 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:01 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:01 INFO  TestRunner:117 - Result true
+2019-05-29 11:07:01 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:05 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:05 INFO  TestRunner:117 - Result true
+2019-05-29 11:07:05 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:06 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:06 INFO  TestRunner:117 - Result true
+2019-05-29 11:07:06 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:08 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:08 INFO  TestRunner:117 - Result true
+2019-05-29 11:07:08 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:12 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:12 INFO  TestRunner:117 - Result true
+2019-05-29 11:07:12 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:16 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:16 INFO  TestRunner:117 - Result true
+2019-05-29 11:07:16 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:07:20 INFO  TestRunner:101 - {"audience_id":"23843441982940668","session_id":"7643233400587930108","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:07:20 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:15 INFO  TestRunner:71 - 
+create Audience with Id23843441983860668
+2019-05-29 11:08:15 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:17 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:17 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:17 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:19 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:19 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:19 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:20 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:20 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:20 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:22 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:22 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:22 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:26 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:26 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:26 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:27 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:27 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:27 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:29 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:29 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:29 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:30 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:30 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:30 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:34 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:34 INFO  TestRunner:117 - Result true
+2019-05-29 11:08:34 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:08:38 INFO  TestRunner:101 - {"audience_id":"23843441983860668","session_id":"7643233400587930108","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:08:38 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:23 INFO  TestRunner:71 - 
+create Audience with Id23843442000020668
+2019-05-29 11:16:23 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:25 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:25 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:25 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:26 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:26 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:26 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:28 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:28 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:28 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:29 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:29 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:29 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:33 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:33 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:33 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:35 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:35 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:35 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:39 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:39 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:39 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:40 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:40 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:40 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:41 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:41 INFO  TestRunner:117 - Result true
+2019-05-29 11:16:41 INFO  TestRunner:82 - start to upload 
+2019-05-29 11:16:42 INFO  TestRunner:101 - {"audience_id":"23843442000020668","session_id":"7643233400587930108","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 11:16:42 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:10 INFO  TestRunner:71 - 
+create Audience with Id23843491452290210
+2019-05-29 12:16:10 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:15 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:15 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:15 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:16 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:16 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:16 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:20 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:20 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:20 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:22 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:22 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:22 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:26 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:26 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:26 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:30 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:30 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:30 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:34 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:34 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:34 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:38 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:38 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:38 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:40 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:40 INFO  TestRunner:117 - Result true
+2019-05-29 12:16:40 INFO  TestRunner:82 - start to upload 
+2019-05-29 12:16:44 INFO  TestRunner:101 - {"audience_id":"23843491452290210","session_id":"7643233400587930109","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:16:44 INFO  TestRunner:117 - Result true
+2019-05-29 12:17:30 INFO  TestRunner:71 - 
+create Audience with Id23843491453340210
+2019-05-29 12:17:30 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:17:37 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:17:37 INFO  TestRunner:170 - Result true
+2019-05-29 12:17:37 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:17:42 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:17:42 INFO  TestRunner:170 - Result true
+2019-05-29 12:17:42 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:17:49 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:17:49 INFO  TestRunner:170 - Result true
+2019-05-29 12:17:49 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:17:53 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:17:53 INFO  TestRunner:170 - Result true
+2019-05-29 12:17:53 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:18:01 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:18:01 INFO  TestRunner:170 - Result true
+2019-05-29 12:18:01 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:18:09 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:18:09 INFO  TestRunner:170 - Result true
+2019-05-29 12:18:09 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:18:10 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:18:10 INFO  TestRunner:170 - Result true
+2019-05-29 12:18:10 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:18:12 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:18:12 INFO  TestRunner:170 - Result true
+2019-05-29 12:18:12 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:18:19 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:18:19 INFO  TestRunner:170 - Result true
+2019-05-29 12:18:19 INFO  TestRunner:135 - start to upload 
+2019-05-29 12:18:27 INFO  TestRunner:154 - {"audience_id":"23843491453340210","session_id":"7740564830916008099","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 12:18:27 INFO  TestRunner:170 - Result true
+2019-05-29 12:29:59 ERROR TestRunner:73 - Error create Audience
+2019-05-29 12:29:59 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:17:30 ERROR TestRunner:73 - Error create Audience
+2019-05-29 13:17:30 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:03 INFO  TestRunner:71 - 
+create Audience with Id23843478899480560
+2019-05-29 13:29:03 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:07 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:07 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:07 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:09 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:09 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:09 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:13 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:13 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:13 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:17 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:17 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:17 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:21 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:21 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:21 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:22 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:22 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:22 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:27 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:27 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:27 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:28 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:28 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:28 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:30 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:30 INFO  TestRunner:117 - Result true
+2019-05-29 13:29:30 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:29:34 INFO  TestRunner:101 - {"audience_id":"23843478899480560","session_id":"7643233400587930110","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:29:34 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:19 INFO  TestRunner:71 - 
+create Audience with Id23843478989470560
+2019-05-29 13:49:19 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:21 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:21 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:21 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:22 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:22 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:22 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:26 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:26 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:26 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:30 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:30 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:30 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:32 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:32 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:32 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:33 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:33 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:33 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:34 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:34 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:34 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:35 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:35 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:35 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:37 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":10000,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:37 INFO  TestRunner:117 - Result true
+2019-05-29 13:49:37 INFO  TestRunner:82 - start to upload 
+2019-05-29 13:49:38 INFO  TestRunner:101 - {"audience_id":"23843478989470560","session_id":"7643233400587930110","num_received":9908,"num_invalid_entries":0,"invalid_entry_samples":{}}
+2019-05-29 13:49:38 INFO  TestRunner:117 - Result true

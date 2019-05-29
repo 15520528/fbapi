@@ -1,3 +1,5 @@
+package test;
+
 import com.facebook.ads.sdk.*;
 
 public class TestGetUser {
